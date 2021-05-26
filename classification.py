@@ -7,6 +7,10 @@ import pathlib
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report, confusion_matrix
 
+
+
+
+ 
 datapath = r"C:\Users\Пользователь\PycharmProjects\IceTest\архив\train_2"
 data_dir = pathlib.Path(datapath)
 # image_count = len(list(data_dir.glob('*/*.jpg')))
